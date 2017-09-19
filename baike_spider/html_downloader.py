@@ -7,7 +7,7 @@ url='贵州省 习近平'
 dcap = dict(DesiredCapabilities.PHANTOMJS)
 dcap["phantomjs.page.settings.userAgent"] = (
     "'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36")
-driver = webdriver.PhantomJS(executable_path='c:\\Users\\xql\\Desktop\\alumni\\scripts\\phantomjs.exe',
+driver = webdriver.PhantomJS(executable_path='c:\\Users\\xql\\Desktop\\alumni\\19大\\scripts\\phantomjs.exe',
                              desired_capabilities=dcap)
 driver.set_page_load_timeout(10000)
 driver.maximize_window()
